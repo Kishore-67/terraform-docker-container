@@ -11,3 +11,9 @@ This project uses Terraform to provision an Nginx Docker container locally.
 terraform init
 terraform plan
 terraform apply -auto-approve
+To destroy:
+
+bash
+Copy
+Edit
+terraform destroy -auto-approve
